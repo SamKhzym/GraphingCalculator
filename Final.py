@@ -914,7 +914,7 @@ def main():
         #DRAW EVERYTHING!
         calc_screen.fill(WHITE)
         
-        display(calc_screen, calc, calc_fnt, graph_pic)
+        display(calc_screen, calc, calc_font, graph_pic)
         
         calc_screen.blit(calc_pic, (0,0))
         
